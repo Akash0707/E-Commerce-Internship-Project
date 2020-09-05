@@ -1,0 +1,26 @@
+{% extends 'basic3.html' %}
+{% block title%} Do not Refresh your Page{% endblock %}
+{% block body %}
+<div class="container">
+    {{response}}
+    <div class="col my-4">
+
+       <form method="post" action="/verify/">
+    {% csrf_token %}
+  <div class="form-group">
+      <label for="exampleInputEmail1">Check Your Email</label>
+
+
+
+    <label for="exampleInputEmail1">EnterOtp</label>
+    <input type="text" class="form-control" id="otp1" name='otp1' placeholder="OTP">
+    <small id="emailHelp" class="form-text text-muted">Do Not share your Otp with anyone else.</small>
+  </div> <button type="submit" class="btn btn-primary">Submit</button></form>
+    </div>
+
+</div>
+{% endblock %}
+{% block js %}
+<script>
+</script>
+{% endblock %}
