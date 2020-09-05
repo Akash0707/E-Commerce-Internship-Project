@@ -1,0 +1,7 @@
+python 3.8.2
+pip install django3.0
+#mysql-connector==2.2.9==>> Note:- Nif you use mysql database no need you use by default sqlite
+#mysql-connector-python==8.0.20==>> Note:-if you use mysql database no need you use by default sqlite
+pip install django-crispy-forms==1.9.1
+pip install pycryptodome
+pip install pillow
