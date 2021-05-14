@@ -25,8 +25,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_SSL = True
 EMAIL_PORT = 465
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = "activeportal.in.net1998@gmail.com"
-EMAIL_HOST_PASSWORD = "Meena@1975"
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ""
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -88,7 +88,7 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.mysql',
         #'NAME' : 'breakfast12',
         #'USER':'root',
-        #'PASSWORD':'akash@1234',
+        #'PASSWORD':'',
         #'HOST' : 'localhost',
         #'PORT' : '3306',
 
